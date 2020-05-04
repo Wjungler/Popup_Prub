@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Ventana Emergente Animada</title>
+</head>
+<body>
+	<div class="contenedor">
+		<article>
+			<h1>Ventana Emergente Animada</h1>
+			<button id="btn-abrir-popup" class="btn-abrir-popup">Registrate</button>
+			<p>
+				Somos una empresa destina a el desarrollo web profecional 	
+			</p>
+			<p>
+				Con esta pagina Queremos buscar desarrollar el Registro de usuarios	
+			</p>
+			<p>
+				Esto es 
+			</p>
+		</article>
+
+		<div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+				<h3>LinkSpired</h3>
+				<h4>Te damos la bienvenida </h4>
+				<form action="">
+					<div class="contenedor-inputs">
+						<input type="text" placeholder="Nombre">
+						<input type="email" placeholder="Correo">
+					</div>
+					<input type="submit" class="btn-submit" value="Suscribirse">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="popup.js"></script>
+</body>
+</html>
