@@ -3,7 +3,7 @@
  Haciendo el css responsive 
  
  ```
- La pagina inicial cuenta con un boton el cual al ser precionado activa un Popup (Ventana Emergente) que contiene un dos inputs de usuario; si la pagina es redimensionada el boton cambia de color y de tamaño segun si se encuentra abajo de los 750px y superior a 1000px.
+ El boton se modifica segun si la ventana es menor a 750px y mayor a 1000px de ancho.
  ```
  
  ## Tecnologias Utilizadas
